@@ -1,0 +1,14 @@
+{
+  "name": "typesmith-testing",
+  "version": "1.0.0",
+  "description": "Local testing of the typesmith modules.",
+  "main": "lib/typesmith-testing.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robb Surridge",
+  "license": "MIT",
+  "dependencies": {
+    "strip-json-comments": "^2.0.1"
+  }
+}
