@@ -1,0 +1,29 @@
+{
+  "types":{
+    "cat":{
+      "child_types":["cat","node"],
+      "subgroup_title":"Categories"
+    },
+    "node":{
+      "child_types":[],
+      "subgroup_title":"Nodes",
+      "page":false
+    }
+  },
+  "typesmith-autoparent": {
+    "scope_separator":" > "
+  },
+  "typesmith-read-json": {
+    "filename":"./testdata/*_flow*"
+  },
+  "typesmith-read-markdown": {
+    "path":"D:\\dev\\stingray-docs\\source\\interactive_help"
+  },
+  "typesmith-write-json":{
+    "filename":"./output-json/all_db.json"
+  },
+  "typesmith-mixtape": {
+    "output":"output-html",
+    "static":[{"from":"D:\\dev\\stingray-docs\\source\\interactive_help\\images","to":"images"}]
+  }
+}

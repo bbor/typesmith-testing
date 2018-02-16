@@ -1,0 +1,60 @@
+{
+  "types":{
+    "ns":{
+      "child_types":["ns","obj","enu","sig","con"],
+      "subgroup_title":"Namespaces",
+      "icon":"far fa-circle"
+    },
+    "obj":{
+      "child_types":["obj","enu","sig","con","mem"],
+      "subgroup_title":"Objects",
+      "icon":"images/icon_read_only.png"
+    },
+    "tab":{
+      "child_types":["mem"],
+      "subgroup_title":"Tables"
+    },
+    "enu":{
+      "child_types":["mem"],
+      "subgroup_title":"Enumerations"
+    },
+    "sig":{
+      "child_types":[],
+      "subgroup_title":"Functions",
+      "page":false
+    },
+    "con":{
+      "child_types":[],
+      "subgroup_title":"Constants",
+      "page":false
+    },
+    "mem":{
+      "child_types":[],
+      "subgroup_title":"Data members",
+      "page":false
+    },
+    "page":{
+      "page":true,
+      "subgroup_by_type":false
+    }
+  },
+  "typesmith-autoparent": {
+    "scope_separator":"."
+  },
+  "typesmith-subgroup": {
+    //"subgroup_by_key":"group"
+  },
+  "typesmith-read-json": {
+    "filename":"./testdata/*_lua*"
+  },
+  "typesmith-read-markdown": {
+    "path":["D:\\dev\\stingray-docs\\source\\interactive_help","./testdata"]
+  },
+  "typesmith-write-json":{
+    "filename":"./output-json/all_db.json"
+  },
+  "typesmith-mixtape": {
+    "output":"output-html",
+    "static":[{"from":"D:\\dev\\stingray-docs\\source\\interactive_help\\images","to":"images"}]
+  }
+}
