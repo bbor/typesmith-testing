@@ -9,6 +9,11 @@
   "author": "Robb Surridge",
   "license": "MIT",
   "dependencies": {
-    "strip-json-comments": "^2.0.1"
+    "axios": "^0.17.1",
+    "strip-json-comments": "^2.0.1",
+    "typesmith": "file:../typesmith",
+    "typesmith-mixtape": "file:../typesmith-mixtape",
+    "typesmith-subgroup": "file:../typesmith-subgroup",
+    "typesmith-write-json": "file:../typesmith-write-json"
   }
 }

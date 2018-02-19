@@ -1,0 +1,51 @@
+{
+  "types":{
+    "misc":{
+      "subgroup_by_type":false,
+      "subgroup_title":"Pages",
+      "page":"parent",
+      "toc":{
+        "add_to_root":true
+      }
+    },
+    "module":{
+      "subgroup_by_type":false,
+      "subgroup_title":"Modules",
+      "icon":"far fa-circle",
+      "page":"parent",
+      "toc":{
+        "add_to_root":true
+      }
+    },
+    "class":{
+      "subgroup_title":"Classes",
+      "page":false
+    },
+    "global":{
+      "subgroup_title":"Globals",
+      "page":false
+    },
+    "property":{
+      "subgroup_title":"Properties",
+      "page":false
+    },
+    "method":{
+      "subgroup_title":"Methods",
+      "page":false
+    }
+  },
+  "typesmith-subgroup": {
+  },
+  "typesmith-write-json":{
+    "filename":"./output-json-nodejs/all_db.json"
+  },
+  "typesmith-mixtape": {
+    "output":"./output-html-nodejs",
+    "toc":{
+      "add_to_root":false
+    },
+    "highlight":{
+      "default_language":"js"
+    }
+  }
+}

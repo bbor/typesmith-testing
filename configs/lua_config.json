@@ -35,7 +35,8 @@
     },
     "page":{
       "page":true,
-      "subgroup_by_type":false
+      "subgroup_by_type":false,
+      "subgroup_title":"Pages"
     }
   },
   "typesmith-autoparent": {
@@ -51,10 +52,10 @@
     "path":["D:\\dev\\stingray-docs\\source\\interactive_help","./testdata"]
   },
   "typesmith-write-json":{
-    "filename":"./output-json/all_db.json"
+    "filename":"./output-json-lua/all_db.json"
   },
   "typesmith-mixtape": {
-    "output":"output-html",
+    "output":"output-html-lua",
     "static":[{"from":"D:\\dev\\stingray-docs\\source\\interactive_help\\images","to":"images"}]
   }
 }

@@ -20,10 +20,10 @@
     "path":"D:\\dev\\stingray-docs\\source\\interactive_help"
   },
   "typesmith-write-json":{
-    "filename":"./output-json/all_db.json"
+    "filename":"./output-json-flow/all_db.json"
   },
   "typesmith-mixtape": {
-    "output":"output-html",
+    "output":"output-html-flow",
     "static":[{"from":"D:\\dev\\stingray-docs\\source\\interactive_help\\images","to":"images"}]
   }
 }
