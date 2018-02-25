@@ -18,19 +18,32 @@
     },
     "class":{
       "subgroup_title":"Classes",
-      "page":false
+      "page":false,
+      "typeahead":{
+        "include":false,
+        "group":"Classes"
+      }
     },
     "global":{
       "subgroup_title":"Globals",
-      "page":false
+      "page":false,
+      "typeahead":{
+        "group":"Globals"
+      }
     },
     "property":{
       "subgroup_title":"Properties",
-      "page":false
+      "page":false,
+      "typeahead":{
+        "group":"Properties"
+      }
     },
     "method":{
       "subgroup_title":"Methods",
-      "page":false
+      "page":false,
+      "typeahead":{
+        "group":"Methods"
+      }
     }
   },
   "typesmith-subgroup": {
