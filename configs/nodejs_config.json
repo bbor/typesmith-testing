@@ -14,13 +14,15 @@
       "page":"parent",
       "toc":{
         "add_to_root":true
+      },
+      "typeahead":{
+        "group":"Modules"
       }
     },
     "class":{
       "subgroup_title":"Classes",
       "page":false,
       "typeahead":{
-        "include":false,
         "group":"Classes"
       }
     },
@@ -31,15 +33,25 @@
         "group":"Globals"
       }
     },
+    "signature":{
+      "subgroup_title":"Constructors",
+      "layout":"collapse",
+      "page":false,
+      "typeahead":{
+        "group":"Constructors"
+      }
+    },
     "property":{
       "subgroup_title":"Properties",
       "page":false,
+      "layout":"collapse",
       "typeahead":{
         "group":"Properties"
       }
     },
     "method":{
       "subgroup_title":"Methods",
+      "layout":"collapse",
       "page":false,
       "typeahead":{
         "group":"Methods"

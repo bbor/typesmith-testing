@@ -2,36 +2,56 @@
   "types":{
     "ns":{
       "child_types":["ns","obj","enu","sig","con"],
-      "subgroup_title":"Namespaces",
-      "icon":"far fa-circle"
+      "icon":"far fa-circle",
+      "default_subgroup":{
+        "content_title":"Namespaces"
+      }
     },
     "obj":{
       "child_types":["obj","enu","sig","con","mem"],
-      "subgroup_title":"Objects",
-      "icon":"images/icon_read_only.png"
+      "icon":"images/icon_read_only.png",
+      "default_subgroup":{
+        "content_title":"Objects"
+      }
     },
     "tab":{
       "child_types":["mem"],
-      "subgroup_title":"Tables"
+      "default_subgroup":{
+        "content_title":"Tables"
+      },
+      "toc":{
+        "add_to_root":false
+      }
     },
     "enu":{
       "child_types":["mem"],
-      "subgroup_title":"Enumerations"
+      "default_subgroup":{
+        "content_title":"Enumerations"
+      }
     },
     "sig":{
       "child_types":[],
-      "subgroup_title":"Functions",
-      "page":false
+      "page":false,
+      "layout":"collapse",
+      "default_subgroup":{
+        "content_title":"Functions"
+      }
     },
     "con":{
       "child_types":[],
-      "subgroup_title":"Constants",
-      "page":false
+      "page":false,
+      "layout":"collapse",
+      "default_subgroup":{
+        "content_title":"Constants"
+      }
     },
     "mem":{
       "child_types":[],
-      "subgroup_title":"Data members",
-      "page":false
+      "page":false,
+      "layout":"collapse",
+      "default_subgroup":{
+        "content_title":"Data members"
+      }
     },
     "page":{
       "page":true,
@@ -43,7 +63,7 @@
     "scope_separator":"."
   },
   "typesmith-subgroup": {
-    //"subgroup_by_key":"group"
+    "subgroup_by_key":"group"
   },
   "typesmith-read-json": {
     "filename":"./testdata/*_lua*"
@@ -55,6 +75,7 @@
     "filename":"./output-json-lua/all_db.json"
   },
   "typesmith-mixtape": {
+    "ProductName":"3ds Max Interactive",
     "output":"output-html-lua",
     "static":[{"from":"D:\\dev\\stingray-docs\\source\\interactive_help\\images","to":"images"}]
   }
