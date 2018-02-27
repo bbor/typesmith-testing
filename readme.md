@@ -41,8 +41,8 @@ Each pipeline has its own script under `./lib`. You can call `node.js` to run ea
 
 Or, you can use one of the `.bat` scripts at the root of this repository.
 
--   `nodejs` pipeline: This pipeline gets the JSON version of the nodejs documentation, adds its data to the typesmith database, makes a few minor alterations, and calls `mixtape` to generate output. You can see a sample of the output [here](http://bbor.github.io/mixtape/demo-nodejs/misc_About_this_Documentation.html). 
+-   `nodejs` pipeline: This pipeline gets the JSON version of the nodejs documentation, adds its data to the typesmith database, makes a few minor alterations, and calls `mixtape` to generate output. You can see a sample of the output [here](http://bbor.github.io/mixtape/demo-nodejs/misc_About_this_Documentation.html).
 
 -   `lua` and `flow` pipelines: These pipelines run the documentation for the Stingray Lua API and the Flow visual programming nodes through `mixtape`. (In progress).
 
-
+-	`webster` pipeline: This pipeline uses the text of Noah Webster's Unabridged English Dictionary from the Gutenberg Project. The typeahead search and toc work with over 100,000 word records!

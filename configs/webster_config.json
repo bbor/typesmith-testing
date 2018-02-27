@@ -1,0 +1,23 @@
+{
+  "types": {
+    "letter":{
+      "page":true,
+      "toc":{
+        "add_to_root":true
+      },
+      "typeahead":{
+        "include":false
+      }
+    }
+  },
+  "typesmith-write-json":{
+    "filename":"./output-json-webster/all_db.json"
+  },
+  "typesmith-mixtape": {
+    "output":"./output-html-webster",
+    "page":false,
+    "toc":{
+      "add_to_root":false
+    }
+  }
+}
