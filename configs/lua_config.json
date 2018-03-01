@@ -56,7 +56,8 @@
     "page":{
       "page":true,
       "subgroup_by_type":false,
-      "subgroup_title":"Pages"
+      "subgroup_title":"Pages",
+      "sort_children":"content_title"
     }
   },
   "typesmith-autoparent": {

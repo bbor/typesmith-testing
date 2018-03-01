@@ -18,6 +18,7 @@
     "page":false,
     "toc":{
       "add_to_root":false
-    }
+    },
+    "sort_children":"name"
   }
 }
