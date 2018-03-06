@@ -4,17 +4,11 @@
       "subgroup_by_type":false,
       "subgroup_title":"Pages",
       "page":"parent",
-      "toc":{
-        "add_to_root":true
-      }
     },
     "module":{
       "subgroup_by_type":false,
       "subgroup_title":"Modules",
       "page":"parent",
-      "toc":{
-        "add_to_root":true
-      },
       "typeahead":{
         "group":"Modules"
       }
@@ -65,9 +59,6 @@
   },
   "typesmith-mixtape": {
     "output":"./output-html-nodejs",
-    "toc":{
-      "add_to_root":false
-    },
     "highlight":{
       "default_language":"js"
     }

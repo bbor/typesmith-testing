@@ -2,9 +2,6 @@
   "types": {
     "letter":{
       "page":true,
-      "toc":{
-        "add_to_root":true
-      },
       "typeahead":{
         "include":false
       }
@@ -16,9 +13,6 @@
   "typesmith-mixtape": {
     "output":"./output-html-webster",
     "page":false,
-    "toc":{
-      "add_to_root":false
-    },
     "sort_children":"name"
   }
 }

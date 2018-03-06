@@ -13,7 +13,7 @@ For now, you have to:
 
 1.  Clone this repository. Open a command prompt in the root of this repository, and run `npm install` to install its dependencies.
 
-1.  Repeat the previous step for the `typesmith` repository, for the repository of each typesmith plugin you want to use, and for the `mixtape` repository.
+1.  Repeat the previous step for the `typesmith` repository, for the repository of each typesmith plugin you want to use, for the `mixtape` repository, and for the [mix-db](http://www.github.com/mix-db) repository (an indexed hierarhical data structure shared by typesmith and mixtape).
 
 1.  Open a command prompt at the root of this `typesmith-testing` repository. Use `npm link` to create a link to the `typesmith` repository and to each other typesmith plugin. For example:
 

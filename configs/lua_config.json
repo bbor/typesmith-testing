@@ -20,7 +20,7 @@
         "content_title":"Tables"
       },
       "toc":{
-        "add_to_root":false
+        "include":false
       }
     },
     "enu":{
@@ -32,6 +32,7 @@
     "sig":{
       "child_types":[],
       "page":false,
+      "icon":"far fa-bookmark",
       "layout":"collapse",
       "default_subgroup":{
         "content_title":"Functions"
@@ -58,13 +59,16 @@
       "subgroup_by_type":false,
       "subgroup_title":"Pages",
       "sort_children":"content_title"
+    },
+    "root":{
+      "subgroup_by_type":false
     }
   },
   "typesmith-autoparent": {
     "scope_separator":"."
   },
   "typesmith-subgroup": {
-    "subgroup_by_key":"group"
+    "subgroup_by_type":true
   },
   "typesmith-read-json": {
     "filename":"./testdata/*_lua*"
