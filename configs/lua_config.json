@@ -5,6 +5,9 @@
       "icon":"far fa-circle",
       "default_subgroup":{
         "content_title":"Namespaces"
+      },
+      "typeahead":{
+        "group":"Namespaces"
       }
     },
     "obj":{
@@ -12,6 +15,9 @@
       "icon":"images/icon_read_only.png",
       "default_subgroup":{
         "content_title":"Objects"
+      },
+      "typeahead":{
+        "group":"Objects"
       }
     },
     "tab":{
@@ -21,12 +27,18 @@
       },
       "toc":{
         "include":false
+      },
+      "typeahead":{
+        "group":"Data table formats"
       }
     },
     "enu":{
       "child_types":["mem"],
       "default_subgroup":{
         "content_title":"Enumerations"
+      },
+      "typeahead":{
+        "group":"Enumerations"
       }
     },
     "sig":{
@@ -36,6 +48,9 @@
       "layout":"collapse",
       "default_subgroup":{
         "content_title":"Functions"
+      },
+      "typeahead":{
+        "group":"Functions"
       }
     },
     "con":{
@@ -44,6 +59,9 @@
       "layout":"collapse",
       "default_subgroup":{
         "content_title":"Constants"
+      },
+      "typeahead":{
+        "group":"Constants"
       }
     },
     "mem":{
@@ -52,13 +70,19 @@
       "layout":"collapse",
       "default_subgroup":{
         "content_title":"Data members"
+      },
+      "typeahead":{
+        "group":"Data members"
       }
     },
     "page":{
       "page":true,
       "subgroup_by_type":false,
       "subgroup_title":"Pages",
-      "sort_children":"content_title"
+      "sort_children":"content_title",
+      "typeahead":{
+        "group":"Pages"
+      }
     },
     "root":{
       "subgroup_by_type":false

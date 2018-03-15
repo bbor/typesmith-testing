@@ -3,7 +3,7 @@
     "misc":{
       "subgroup_by_type":false,
       "subgroup_title":"Pages",
-      "page":"parent",
+      "page":"parent"
     },
     "module":{
       "subgroup_by_type":false,
